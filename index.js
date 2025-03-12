@@ -4,6 +4,7 @@ const logger = require("./lib/loggerLib");
 const responseStatus = require("./lib/responseLib");
 const validateRequest = require("./lib/validateRequestLib");
 const exception = require("./lib/throwNewErrorLib");
+const device = require("./lib/device");
 
 module.exports = {
     bcrypt,
@@ -12,4 +13,5 @@ module.exports = {
     responseStatus,
     validateRequest,
     exception,
+    device,
 };
