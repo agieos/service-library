@@ -1,7 +1,8 @@
 <!-- 
-Step 2: Install project-a as a Local Dependency in project-b
-Go to project-b and run: npm install ../project-a
-Step 3: Import the Module in project-b
-const helper = require('project-a-helper');
-console.log(helper.sayHello()); // Output: Hello from Project A!
+Push to Git
+- git status
+- git add .
+- git commit -m "Fix: Improved sensitive data masking to handle nested objects"
+- git remote add origin https://github.com/agieos/service-library.git
+- git push origin main
 -->
